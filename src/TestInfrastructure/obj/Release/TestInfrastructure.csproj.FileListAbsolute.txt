@@ -1,0 +1,17 @@
+D:\Repos\AvocadoDataServices\AvocadoDataServices\TestInfrastructure\obj\Release\TestInfrastructure.csprojResolveAssemblyReference.cache
+D:\Repos\AvocadoDataServices\AvocadoDataServices\TestInfrastructure\bin\Release\TestInfrastructure.dll
+D:\Repos\AvocadoDataServices\AvocadoDataServices\TestInfrastructure\bin\Release\TestInfrastructure.pdb
+D:\Repos\AvocadoDataServices\AvocadoDataServices\TestInfrastructure\bin\Release\Microsoft.Practices.Unity.Configuration.dll
+D:\Repos\AvocadoDataServices\AvocadoDataServices\TestInfrastructure\bin\Release\Microsoft.Practices.Unity.dll
+D:\Repos\AvocadoDataServices\AvocadoDataServices\TestInfrastructure\bin\Release\Microsoft.Practices.Unity.Interception.Configuration.dll
+D:\Repos\AvocadoDataServices\AvocadoDataServices\TestInfrastructure\bin\Release\Microsoft.Practices.Unity.Interception.dll
+D:\Repos\AvocadoDataServices\AvocadoDataServices\TestInfrastructure\bin\Release\Microsoft.Practices.Unity.RegistrationByConvention.dll
+D:\Repos\AvocadoDataServices\AvocadoDataServices\TestInfrastructure\bin\Release\Moq.dll
+D:\Repos\AvocadoDataServices\AvocadoDataServices\TestInfrastructure\bin\Release\Microsoft.Practices.Unity.xml
+D:\Repos\AvocadoDataServices\AvocadoDataServices\TestInfrastructure\bin\Release\Microsoft.Practices.Unity.Configuration.xml
+D:\Repos\AvocadoDataServices\AvocadoDataServices\TestInfrastructure\bin\Release\Microsoft.Practices.Unity.Interception.xml
+D:\Repos\AvocadoDataServices\AvocadoDataServices\TestInfrastructure\bin\Release\Microsoft.Practices.Unity.Interception.Configuration.xml
+D:\Repos\AvocadoDataServices\AvocadoDataServices\TestInfrastructure\bin\Release\Microsoft.Practices.Unity.RegistrationByConvention.xml
+D:\Repos\AvocadoDataServices\AvocadoDataServices\TestInfrastructure\bin\Release\Moq.xml
+D:\Repos\AvocadoDataServices\AvocadoDataServices\TestInfrastructure\obj\Release\TestInfrastructure.dll
+D:\Repos\AvocadoDataServices\AvocadoDataServices\TestInfrastructure\obj\Release\TestInfrastructure.pdb
