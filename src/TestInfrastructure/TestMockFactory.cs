@@ -15,17 +15,17 @@ namespace TestInfrastructure
     /// </summary>
     public static class TestMockFactory
     {
-        ///// <summary>
-        ///// Creates the repository using the specified behavior.
-        ///// </summary>
-        ///// <param name="behavior">The behavior.</param>
-        ///// <returns>The MockRepository</returns>
-        //public static IMockRepository Create(MockBehavior behavior = MockBehavior.Default)
-        //{
-        //    //var container = UnityFactory.GetContainer();
-        //    //container.AddNewExtension<Interception>();
-        //    //return Create(container, behavior);
-        //}
+        /// <summary>
+        /// Creates the repository using the specified behavior.
+        /// </summary>
+        /// <param name="behavior">The behavior.</param>
+        /// <returns>The MockRepository</returns>
+        public static IMockRepository Create(MockBehavior behavior = MockBehavior.Default)
+        {
+            var container = new UnityContainer();
+            container.AddNewExtension<Interception>();
+            return Create(container, behavior);
+        }
 
         public static IMockRepository Create(IUnityContainer container, MockBehavior behavior = MockBehavior.Default)
         {

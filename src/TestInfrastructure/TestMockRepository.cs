@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Moq;
+using Microsoft.Practices.Unity;
 
 namespace TestInfrastructure
 {
@@ -29,6 +30,9 @@ namespace TestInfrastructure
         {
 
         }
+
+        [OptionalDependency]
+        public IUnityContainer Container { get; set; }
 
         /// <summary>
         /// Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.

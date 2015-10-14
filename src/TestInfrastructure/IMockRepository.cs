@@ -15,7 +15,7 @@ namespace TestInfrastructure
     /// <remarks>
     /// This interface is pulled from <see cref="MockRepository"/>, but also contains an event for disposing.
     /// </remarks>
-    public interface IMockRepository : IDisposable
+    public interface IMockRepository : IContainerSink, IDisposable
     {
         // Summary:
         //     Access the universe of mocks of the given type, to retrieve those that behave
