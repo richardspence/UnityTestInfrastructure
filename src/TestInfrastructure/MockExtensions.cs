@@ -26,5 +26,19 @@ namespace TestInfrastructure
         {
             return mock.Returns(ex.GetTask<TResult>());
         }
+
+        /// <summary>
+        /// Returns the specified result as a task.
+        /// </summary>
+        /// <typeparam name="TMock">The type of the mock.</typeparam>
+        /// <typeparam name="TResult">The type of the result.</typeparam>
+        /// <param name="mock">The mock.</param>
+        /// <param name="result">The result.</param>
+        /// <returns></returns>
+        public static IReturnsResult<TMock> Returns<TMock, TResult>(this IReturns<TMock, Task<TResult>> mock, TResult result)
+            where TMock : class
+        {
+            return mock.Returns(Task.FromResult(result));
+        }
     }
 }
